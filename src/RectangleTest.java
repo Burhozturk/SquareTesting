@@ -21,6 +21,7 @@ public class RectangleTest
 
         Rectangle d=new Rectangle(6,-4);
         int resultd=d.getArea();
+        assertEquals(-24,resultd);
 
     }
 
@@ -41,6 +42,7 @@ public class RectangleTest
 
         Rectangle d=new Rectangle(6,-4);
         int resultd=d.getPerimeter();
+        assertEquals(4,resultd);
 
     }
 
